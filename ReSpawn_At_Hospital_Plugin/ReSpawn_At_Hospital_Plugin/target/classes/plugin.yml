@@ -1,0 +1,13 @@
+name: ReSpawn_At_Hospital_Plugin
+version: '1.0-SNAPSHOT'
+main: raihan.respawn_at_hospital_plugin.ReSpawn_At_Hospital_Plugin
+api-version: '1.20'
+commands:
+  sethospital:
+    description: Set hospital location
+    usage: /sethospital
+    permission: respawn_at_hospital_plugin.admin
+permissions:
+  respawn_at_hospital_plugin.admin:
+    description: Permission to use all respawn_at_hospital_plugin commands.
+    default: op
